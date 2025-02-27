@@ -45,6 +45,7 @@ print("Class with highest members:", members)
 cursor.execute(" select id from npc where class = 'Jester' order by gold desc limit 1")
 jester = cursor.fetchall()
 print("ID of Jester with the most gold:", jester)
+
 #total gold of the 100 wealthiest npc's in the table
 cursor.execute("select sum(gold) from (select gold from npc order by gold desc limit 100)")
 numGold = cursor.fetchall()

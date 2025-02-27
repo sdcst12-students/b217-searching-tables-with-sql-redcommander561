@@ -51,6 +51,7 @@ Assignment:
 Answer the following questions about NPC's from the database. They are stored in a table called _npc_
 
 What is the structure of the table?  What are the columns and what datatypes do they store?
+
 How many records are in the table?
 How many Knights are in the table?
 Which class has the highest number of members?
