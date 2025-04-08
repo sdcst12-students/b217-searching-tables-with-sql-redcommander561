@@ -63,9 +63,7 @@ print("stats of the bard with the highest strength: ", fard)
 
 #ID number of the npc with highest total sum of their 6 primary stats
 cursor.execute(" select id from npc order by (strength + dexterity + constitution + intelligence + wisdom + charisma) desc limit 1")
-
 primbyaccount = cursor.fetchall()
-primbyaccount = round(2, primbyaccount)
 print("ID number of the NPC with the highest total sum of their 6 primary stats: ", primbyaccount)
 
 #percentage of all fighter classes (Barbarian, Warrior, Knight, Samurai) are Warriors
